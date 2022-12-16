@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">   
+        <title>Hot Beans Web</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="Assets/hotCoffee.png" alt="logo" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="meetTheTeam.html">Meet The Team</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="applicationForm.html">Application Form</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="pageName">
+            <h1>Application Form</h1>
+        </div>
+
+    <div class="formContainer">
+        <div class="form">
+        <form action="/applicationSubmit.html">
+            <label for="lname">Job Type:</label> <br>
+            <input list="JobType" name="Job Type">
+            <datalist id="JobType">
+            <option value="Senior Developer">
+            <option value="Skilled Developer">
+            <option value="Jenior Developer">
+            </datalist>
+            <br><br>
+            <label for="fname">First name:</label> <br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label> <br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Phone Number:</label> <br>
+            <input type="text" id="phone" name="lname"><br><br>
+            <label for="lname">Email:</label> <br>
+            <input type="text" id="email" name="lname"><br><br>
+            <label for="lname">Upload CV:</label> <br>
+            <input type="file" id="myCV" name="Upload CV"><br><br><br><br>
+            <div class="button">
+                <a href='applicationSubmit.html'>Submit Application</a>
+                </div>
+          </form>
+        </div>
+        <div class="formImage">
+            <img src="Assets/weWantYou.png" alt="We WantYou">
+        </div>
+    </div>
+
+    </body>
+</html>
